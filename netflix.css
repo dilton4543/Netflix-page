@@ -1,0 +1,176 @@
+#netflixlogo{
+    width: 180px;
+    margin-left: 1.5rem;
+}
+ body{
+    background-color: rgb(21, 21, 43);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.body1{
+    color: white;
+    background-image: url(/netflixpage/netfliximages/netflixcover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55rem; 
+    width: 100%;
+    position: relative;
+}
+#gradient{
+    background-image: linear-gradient(to right, rgb(34, 34, 66, 0.95), rgb(34, 34, 66, 0.1));
+    height: 55rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#signinbtn{
+    text-decoration: none;
+    border: 2px solid red;
+    background-color: red;
+    padding: 6px 15px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 2.5rem;
+}
+#signinbtn:hover{
+    background-color: rgb(255, 0, 0, 0.9);
+}
+#getstart{
+    background-color: red;
+    cursor: pointer;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid red;
+    font-size: larger;
+    border-radius: 4px;
+}
+#getstart:hover{
+    background-color: rgba(215, 3, 3, 0.9);
+}
+#firstheader{
+    font-size: 4rem;
+    margin-left: 4rem;
+}
+#firstpara{
+    font-size: 22px;
+    margin-left: 4rem;
+}
+#email{
+    padding: 1rem 1rem;
+    width: 20rem;
+    border-radius: 6px;
+    margin-left: 3.8rem;
+    background-color:#161616b3;
+    font-size: 17px;
+}
+.pos{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+.firstbodypic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-right: 10px;
+}
+.secondbodypic{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin-left: 10px;
+}
+#bodypics{
+    width: 22rem;
+}
+.a{
+    border: 0.5px solid rgb(28, 28, 48);
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgb(38, 38, 75);
+    border-radius: 13px;
+    /* background-color: rgb(34, 34, 66, 0.95); */
+    /* background-color: #e50914; this is color red */
+    /* background-color: #465a7e66; this is for the FAQS hover state*/
+    /* background-color: #232323; this black is pureblack */
+    /* background-color: #161616b3; this black is kinda transperent for the email placeholder*/
+    /* background-color: #000000; this black is very black */
+    /* background-color: #00000066; this black is very transperent more than the one above */
+}
+#faq{
+    margin-left: 10rem;
+    font-size: 40px;
+}
+.entirepic{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+#p1{
+    font-size: 23px;
+}
+#p2{
+    font-size: 16px;
+}
+.parentsixdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#sixdivs{
+    border: 0.5px solid #2c488066;
+    background-color: #2c488066;
+    margin-left: 10rem;
+    padding: 30px;
+    width: 57rem;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+#sixdivs:hover{
+    cursor: pointer;
+    background-color: #5680ce66;
+}
+.secondform{
+    margin-left: 6rem;
+}
+#ques{
+    color: gray;
+    margin-left: 10rem;
+}
+.links{
+    list-style-type: none;
+    display: flex;
+    gap: 6.5rem;
+    margin-left: 9.5rem;
+}
+.links li a{
+    color: gray;
+}
+.links li{
+    padding: 8px;
+}
+#eng{
+    background-color:#161616b3;
+    color: white;
+    padding: 5px;
+    margin-left: 10rem;
+    border: 2px solid;
+    border-radius: 7px;
+}
+#net{
+    color: gray;
+    margin-left: 10rem;
+}
